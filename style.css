@@ -2,4 +2,34 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background: url(https://github.com/KatrinaGandzjuka/Vizitkarte/blob/main/images/Background.jpg?raw=true);
+  padding: 100px 0;
+}
+
+.wrapper {
+  width: 800px;
+  min-height: 800px;
+  border: 10px solid white;
+  margin: 0 auto;
+  background: white;
+}
+
+.header {
+  display: flex;
+  height: 150px;
+}
+
+.cover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 100%;
+  font-size: 30px;
+}
+
+.picture {
+  display: flex;
+  width: 20%;
+  height: 100%;
 }
