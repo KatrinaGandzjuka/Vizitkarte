@@ -98,7 +98,8 @@ h3 {
 }
 
 .sidebar {
-  padding: 20px;
+  padding: 10px;
+  padding-right: 0;
   width: 20%;
 }
 
@@ -118,4 +119,10 @@ h3 {
 
 .social li:hover {
   transform: translateX(10px);
+}
+
+.photo {
+  height: 150px;
+  margin: 10px;
+  position: relative;
 }
