@@ -1,6 +1,6 @@
 # Vizitkarte
-
-https://meyerweb.com/eric/tools/css/reset/
-https://fonts.google.com/
-https://fonts.google.com/share?selection.family=Poppins:wght@400;700
-https://manilla.lv/category/downloads/
+## Resursi, ko izmantoju:
+* [CSS reset](https://meyerweb.com/eric/tools/css/reset/)
+* [Fonts](https://fonts.google.com/share?selection.family=Poppins:wght@400;700)
+* [Background image](https://manilla.lv/category/downloads/)
+* [Cover image](https://www.pexels.com/ru-ru/search/purple/)
