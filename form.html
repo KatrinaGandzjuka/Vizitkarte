@@ -7,8 +7,11 @@
     <title>Katrina Gandzjuka</title>
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="script" href="script.js" />
   </head>
   <body>
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="script.js"></script>
     <div class="wrapper">
       <div class="header">
         <div class="cover">
@@ -21,27 +24,50 @@
           <li><a href="about.html">Mans ceļš</a></li>
           <li><a href="hobbies.html">Mani hobiji</a></li>
           <li><a href="job.html">Mans darbs</a></li>
-          <li><a href="form.html">Sazinies</a></li>
+          <li><a href="index.html">Par mani</a></li>
         </ul>
       </div>
       <div class="cont-wrapper">
         <div class="content">
-          <h3>Čau Čau!</h3>
+          <h3>Raksti man te</h3>
           <p>
-            Mani sauc Katrīna, esmu Rīgas Valsts tehnikuma datorikas nodaļas 3.
-            kursa audzēkne. Šo mājaslapu izveidoju, lai padalītos ar savu
-            stāstu, lietām ko daru un ko mīlu. Šajā sadaļā pastāstīšu mazliet
-            par sevi.
+            Ja gribi padalīties ar savu stāstu, izpaust savu viedokli vai uzdot
+            jautājumu, raksti te
           </p>
           <br />
-          <p>
-            Es esmu dzimusi Rīgā 18. februārī, kas padara mani par ūdensvīru.
-            Mana mīļāka krāsa ir violeta, ko, noteikti, var saprast arī pēc šīs
-            lapas dizaina :) Es ļoti mīlu dzīvniekus, man pašai ir divi kaķi, ko
-            nosaucām par Cukuriņu un Vasīliju, bet man simpatizē apsolūti visi
-            pūkainie draugi. Mana mīļāka grāmata ir "1984", ko uzrakstīja
-            Džordžs Oruels, mīļāka filma "Girl, Interrupted".
-          </p>
+          <div class="form">
+            <form id="form">
+              <input type="hidden" name="project_name" value="Vizitkarte" />
+              <input
+                type="hidden"
+                name="admin_email"
+                value="katrina.gandzjuk@icloud.com"
+              />
+              <input
+                type="hidden"
+                name="form_subject"
+                value="Majaslapas forma"
+              />
+              <div class="form-element">
+                <span>Vārds</span>
+                <input type="text" name="name" />
+              </div>
+              <div class="form-element">
+                <span>E-mail</span>
+                <input type="email" email="email" />
+              </div>
+              <div class="form-element">
+                <span>Ziņa</span>
+                <textarea name="message" id="" cols="40" rows="10"> </textarea>
+              </div>
+              <div class="form-footer">
+                <div class="form-element"></div>
+                <div class="form-element">
+                  <button type="submit">Sūtīt</button>
+                </div>
+              </div>
+            </form>
+          </div>
         </div>
         <div class="sidebar">
           <h3>Meklē mani</h3>

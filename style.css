@@ -89,7 +89,7 @@ h3 {
 }
 
 .content {
-  width: 80%;
+  width: 100%;
   padding: 20px;
 }
 
@@ -125,4 +125,82 @@ h3 {
   height: 150px;
   margin: 10px;
   position: relative;
+}
+
+.form {
+  width: 100%;
+  height: auto;
+  padding: 30 px;
+}
+
+.form-element {
+  margin: 20px 0;
+}
+
+.form-element span {
+  display: block;
+}
+
+.form-element input,
+.form-element textarea {
+  display: block;
+  border: #bebdc5 1px solid;
+  outline: none;
+  margin-top: 10px;
+  width: 90%;
+  height: 15px;
+  padding: 15px;
+}
+
+.form-element textarea {
+  height: 130px;
+}
+
+.form-element label img {
+  width: 40px;
+  cursor: pointer;
+  opacity: 0.25;
+}
+
+.form-element label:hover img {
+  width: 40px;
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.form-element label input {
+  display: none;
+}
+
+.form-element button {
+  margin-left: 25px;
+  width: 120px;
+  height: 50px;
+  background: #b1aab1;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.form-element button:hover {
+  background: #bebdc5;
+  color: rgb(21, 62, 29);
+}
+
+.form-element label {
+  align-items: left;
+}
+
+.form-footer {
+  width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.form-footer .form-element {
+  margin-bottom: 0;
 }
