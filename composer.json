@@ -1,0 +1,10 @@
+{
+  "name": "katri/vizitkarte",
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "require": {}
+}
